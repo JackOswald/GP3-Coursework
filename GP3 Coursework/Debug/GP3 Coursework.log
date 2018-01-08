@@ -1,0 +1,46 @@
+﻿Build started 08/01/2018 04:19:07.
+     1>Project "E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3 Coursework\GP3 Coursework\GP3 Coursework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cEnemy.cpp cPlayer.cpp mainGame.cpp
+         mainGame.cpp
+     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3 coursework\gp3 coursework\maingame.cpp(99): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3 coursework\gp3 coursework\maingame.cpp(123): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
+     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3 coursework\gp3 coursework\maingame.cpp(173): warning C4305: 'argument' : truncation from 'int' to 'ALboolean'
+     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3 coursework\gp3 coursework\maingame.cpp(173): warning C4309: 'argument' : truncation of constant value
+         cPlayer.cpp
+         cEnemy.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3 Coursework\Debug\GP3 Coursework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3 Coursework\Debug\GP3 Coursework.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3 Coursework\Debug\GP3 Coursework.lib" /MACHINE:X86 Debug\cCamera.obj
+         Debug\cEnemy.obj
+         Debug\cFont.obj
+         Debug\cFontMgr.obj
+         Debug\cInputMgr.obj
+         Debug\cBullet.obj
+         Debug\cLight.obj
+         Debug\cMaterial.obj
+         Debug\cModel.obj
+         Debug\cModelLoader.obj
+         Debug\cPlayer.obj
+         Debug\cSound.obj
+         Debug\cSoundMgr.obj
+         Debug\cTexture.obj
+         Debug\cWNDManager.obj
+         Debug\GameConstants.obj
+         Debug\mainGame.obj
+         Debug\spaceGame.obj
+         Debug\windowOGL.obj
+         Libraries\alut.lib
+         Libraries\DevIL.lib
+         Libraries\freeglut.lib
+         Libraries\ftgl.lib
+         "Libraries\glm-0.3.2Lib.lib"
+         Libraries\ILU.lib
+         Libraries\ILUT.lib
+         Libraries\OpenAL32.lib
+         GP3 Coursework.vcxproj -> E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3 Coursework\Debug\GP3 Coursework.exe
+     1>Done Building Project "E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3 Coursework\GP3 Coursework\GP3 Coursework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.37
