@@ -1,17 +1,37 @@
-﻿Build started 08/01/2018 04:19:07.
-     1>Project "E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3 Coursework\GP3 Coursework\GP3 Coursework.vcxproj" on node 2 (Build target(s)).
+﻿Build started 08/01/2018 06:17:33.
+     1>Project "E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3-Coursework\GP3 Coursework\GP3 Coursework.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cEnemy.cpp cPlayer.cpp mainGame.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cCamera.cpp cEnemy.cpp cFont.cpp cFontMgr.cpp cInputMgr.cpp cBullet.cpp cLight.cpp cMaterial.cpp cModel.cpp cModelLoader.cpp cPlayer.cpp cSound.cpp cSoundMgr.cpp cTexture.cpp cWNDManager.cpp GameConstants.cpp mainGame.cpp spaceGame.cpp windowOGL.cpp
+         windowOGL.cpp
+         spaceGame.cpp
          mainGame.cpp
-     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3 coursework\gp3 coursework\maingame.cpp(99): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
-     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3 coursework\gp3 coursework\maingame.cpp(123): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
-     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3 coursework\gp3 coursework\maingame.cpp(173): warning C4305: 'argument' : truncation from 'int' to 'ALboolean'
-     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3 coursework\gp3 coursework\maingame.cpp(173): warning C4309: 'argument' : truncation of constant value
+     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3-coursework\gp3 coursework\maingame.cpp(99): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3-coursework\gp3 coursework\maingame.cpp(123): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
+     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3-coursework\gp3 coursework\maingame.cpp(173): warning C4305: 'argument' : truncation from 'int' to 'ALboolean'
+     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3-coursework\gp3 coursework\maingame.cpp(173): warning C4309: 'argument' : truncation of constant value
+         GameConstants.cpp
+         cWNDManager.cpp
+         cTexture.cpp
+         cSoundMgr.cpp
+         cSound.cpp
          cPlayer.cpp
+         cModelLoader.cpp
+     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3-coursework\gp3 coursework\cmodelloader.cpp(35): warning C4244: '=' : conversion from 'GLsizei' to 'GLfloat', possible loss of data
+     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3-coursework\gp3 coursework\cmodelloader.cpp(36): warning C4244: '=' : conversion from 'GLsizei' to 'GLfloat', possible loss of data
+         cModel.cpp
+         cMaterial.cpp
+         cLight.cpp
+         cBullet.cpp
+         cInputMgr.cpp
+         cFontMgr.cpp
+         cFont.cpp
+     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3-coursework\gp3 coursework\cfont.cpp(69): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>e:\jack\documents\uni work\4th year\games programming 3\coursework\gp3-coursework\gp3 coursework\cfont.cpp(82): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
          cEnemy.cpp
+         cCamera.cpp
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3 Coursework\Debug\GP3 Coursework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3 Coursework\Debug\GP3 Coursework.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3 Coursework\Debug\GP3 Coursework.lib" /MACHINE:X86 Debug\cCamera.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3-Coursework\Debug\GP3 Coursework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3-Coursework\Debug\GP3 Coursework.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3-Coursework\Debug\GP3 Coursework.lib" /MACHINE:X86 Debug\cCamera.obj
          Debug\cEnemy.obj
          Debug\cFont.obj
          Debug\cFontMgr.obj
@@ -38,9 +58,12 @@
          Libraries\ILU.lib
          Libraries\ILUT.lib
          Libraries\OpenAL32.lib
-         GP3 Coursework.vcxproj -> E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3 Coursework\Debug\GP3 Coursework.exe
-     1>Done Building Project "E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3 Coursework\GP3 Coursework\GP3 Coursework.vcxproj" (Build target(s)).
+     1>glm-0.3.2Lib.lib(glm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glm-0.3.2Lib.lib(glm.obj)' or at 'E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3-Coursework\Debug\vc120.pdb'; linking object as if no debug info
+     1>glm-0.3.2Lib.lib(glmimg.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glm-0.3.2Lib.lib(glmimg.obj)' or at 'E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3-Coursework\Debug\vc120.pdb'; linking object as if no debug info
+     1>glm-0.3.2Lib.lib(glm_util.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glm-0.3.2Lib.lib(glm_util.obj)' or at 'E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3-Coursework\Debug\vc120.pdb'; linking object as if no debug info
+         GP3 Coursework.vcxproj -> E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3-Coursework\Debug\GP3 Coursework.exe
+     1>Done Building Project "E:\Jack\Documents\Uni Work\4th Year\Games Programming 3\Coursework\GP3-Coursework\GP3 Coursework\GP3 Coursework.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.37
+Time Elapsed 00:00:16.64
