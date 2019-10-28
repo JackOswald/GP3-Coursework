@@ -1,6 +1,6 @@
-# Games Programming 3
+# Space Shooter
 
-A space shooter created in Visual Studio using C++ and OpenGL API.
+A space shooter created in Visual Studio using C++ and OpenGL API for my Games Programming 3 coursework.
 
 # What I Learned
 
